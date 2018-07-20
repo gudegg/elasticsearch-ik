@@ -15,9 +15,7 @@ docker run \
   -p 9300:9300 \
   -d \
   gude/elasticsearch-ik \
-  --network.host=0.0.0.0 \
-  --transport.tcp.port=9300 \
-  --http.port=9200
+  --network.host=0.0.0.0
 ```
 #### slave
 ```
@@ -29,8 +27,6 @@ docker run \
   -d \
    gude/elasticsearch-ik \
   --network.host=0.0.0.0 \
-  --transport.tcp.port=9300 \
-  --http.port=9200 \
   --discovery.zen.ping.unicast.hosts=some-elasticsearch-master
 ```
 ### cluster status
