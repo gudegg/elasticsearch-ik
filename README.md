@@ -1,6 +1,8 @@
 # elasticsearch-ik for chinese
 version:2.4.4
+
 dockerhub :https://hub.docker.com/r/gude/elasticsearch-ik/
+
 ## Standalone:
 `docker run -d --name elasticsearch -p 9200:9200 -p 9300:9300 gude/elasticsearch-ik`
 
