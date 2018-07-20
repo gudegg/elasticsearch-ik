@@ -1,5 +1,5 @@
 # elasticsearch-ik for chinese
-version:2.4.4
+elasticsearch version:2.4.4
 
 dockerhub :https://hub.docker.com/r/gude/elasticsearch-ik/
 
