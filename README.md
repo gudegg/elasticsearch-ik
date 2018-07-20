@@ -33,3 +33,5 @@ docker run \
   --http.port=9200 \
   --discovery.zen.ping.unicast.hosts=some-elasticsearch-master
 ```
+### cluster status
+`curl http://localhost:9200/_cat/health?v`  or  `curl http://localhost:9200/_cluster/health`
